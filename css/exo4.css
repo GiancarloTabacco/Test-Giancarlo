@@ -1,0 +1,51 @@
+/*
+ * Le drapeau aux étoiles vicieuses
+ * Un tour au panama ?
+ */
+
+.flag {
+    height: 200px;
+    width: 300px;
+    margin: 0%;
+   
+  
+    
+  }
+  
+.carreau {
+    height: 100px;
+    width: 150px;
+    float: left;
+  }
+  
+.blanc {
+    background-color: #FFFFFF;
+  }
+  
+.rouge {
+    background-color: #D90012;
+  }
+  
+.bleu {
+    background-color: #00529B;
+  }
+  
+.panama .carreau:nth-child(1) {
+    border-bottom: 1px solid #00529B;
+  }
+  
+.panama .carreau:nth-child(2) {
+    border-right: 1px solid #00529B;
+    border-bottom: 1px solid #D90012;
+  }
+  
+.panama .carreau:nth-child(3) {
+    border-left: 1px solid #00529B;
+    border-bottom: 1px solid #D90012;
+  }
+  
+.panama .carreau:nth-child(4) {
+    border-top: 1px solid #D90012;
+    border-bottom: 1px solid #00529B;
+  }
+  

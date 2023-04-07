@@ -1,0 +1,24 @@
+/*
+ * L'effroyable fossé entre paragraphes
+ * Il faut respecter aussi le gras, l'italique, la largeur des paragraphes…
+ */
+
+ #container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#text {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+}
+
+#text div:nth-child(2) p:nth-child(3) {
+  order: 1;
+}
